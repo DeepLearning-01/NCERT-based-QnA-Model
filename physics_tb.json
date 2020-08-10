@@ -1,0 +1,360 @@
+{"physics1": [
+     {"tag": "physics",
+         "patterns": ["Physics", "What is Physics"],
+         "responses": ["The branch of science concerned with the nature and properties of matter and energy. The subject matter of physics includes mechanics, heat, light and other radiation, sound, electricity, magnetism, and the structure of atoms."],
+         "context": [""]
+        },        
+
+    {"tag": "greeting",
+         "patterns": ["Hi", "How are you?", "Hello"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, this is Tanya. How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later cham!", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "",
+         "patterns": [""," s"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you in finding answers for your questions from 12th grade Physics. Ask me questions. I will try to answer.."],
+         "context": [""]
+        },
+        {"tag": "electrostatics",
+         "patterns": ["What is Electrostatics", "Electrostatics", "Could I know about Electrostatics?"],
+         "responses": ["Electrostatics deals with the study of forces, fields and potentials arising from static charges. For more details refer page 3.."],
+         "context": [""]
+        },
+        {"tag": "gold leaf electroscope",
+         "patterns": ["What is gold-leaf electroscope?", "brief about gold-leaf electroscope", "what about gold-leaf electroscope?", "I want to know about gold-leaf electroscope" ],
+         "responses": ["Gold-leaf electroscope. It consists of a vertical metal rod housed in a box, with two thin gold leaves attached to its bottom end. When a charged object touches the metal knob at the top of the rod, charge flows on to the leaves and they diverge. The degree of divergance is an indicator of the amount of charge."],
+         "context": [""]
+        },
+        {"tag": "electric charge properties",
+         "patterns": ["properties of electric charge", "electric charge properties", "what are the properties of electric charge?"],
+         "responses": ["Additivity of charges, Charge is conserved, Quantisation of charge. (Pg 8, 9)"],
+         "context": ["electric charge"]
+        },
+        {"tag": "electric charge",
+         "patterns": ["what is electric charge?", "electric charge"],
+         "responses": ["Electric charge is the physical property of matter that causes it to experience a force when placed in an electromagnetic field. There are two types of electric charge: positive and negative (commonly carried by protons and electrons respectively). Like charges repel each other and unlike charges attract each other. (Pg. 2)"],
+         "context": [""]
+        },
+        {"tag": "conductors",
+         "patterns": ["What are conductors?", "conductors", "what is a conductor?" ],
+         "responses": ["Those which allow electricity to pass through them easily are called conductors. They have electric charges (electrons) that are comparatively free to move inside the material. Metals, human and animal bodies and earth are conductors.(Pg 5)"],
+         "context": [""]
+        },
+        {"tag": "insulators",
+         "patterns": ["What are insulators?", "insulators", "what is a insulator?"],
+         "responses": ["Most of the non-metals like glass, porcelain, plastic, nylon, wood offer high resistance to the passage of electricity through them. They are called insulators. (Pg 5)"],
+         "context": [""]
+        },
+        {"tag": "couloumb's law",
+         "patterns": ["couloumb's law", "what is couloumb's law?", "couloumbs law" ],
+         "responses": ["Coulomb’s law is a quantitative statement about the force between two point charges. Coulomb measured the force between two point charges and found that it varied inversely as the square of the distance between the charges and was directly proportional to the product of the magnitude of the two charges and acted along the line joining the two charges. (Pg 10, 11)"],
+         "context": [""]
+        },
+        {"tag": "electric field",
+         "patterns": ["what is electric field?", "electric field", "illustrate electric field"],
+         "responses": ["I will illustrate this with the following example - Let us consider a point charge Q placed in vacuum, at the origin O. If we place another point charge q at a point P, where OP = r, then the charge Q will exert a force on q as per Coulomb’s law. If charge q is removed, then what is left in the surrounding? Is there nothing? If there is nothing at the point P, then how does a force act when we place the charge q at P. In order to answer such questions, the early scientists introduced the concept of field. According to this, we say that the charge Q produces an electric FIELD everywhere in the surrounding. When another charge q is brought at some point P, the field there acts on it and produces a force. (Pg 18)"],
+         "context": [""]
+        },
+        {"tag": "dipole",
+         "patterns": ["electric dipole", "what is an electric dipole?", "explain electric dipole."],
+         "responses": ["An electric dipole is a pair of equal and opposite point charges q and –q, separated by a distance 2a. The line connecting the two charges defines a direction in space. By convention, the direction from –q to q is said to be the direction of the dipole. The mid-point of locations of –q and q is called the centre of the dipole. (Pg 27)"],
+         "context": [""]
+        },
+        {"tag": "gauss law",
+         "patterns": ["what is gauss's law", "gauss law", "gauss's law", "explain gauss's law"],
+         "responses": ["This question have a lot of math part. I better recommend you to refer the page number 33. Because, explaining that in few lines is not a piece of cake.."],
+         "context": [""]
+        },
+        {"tag": "applications of gauss's law",
+         "patterns": ["what are the applications of gauss's law", "gauss's law applications"],
+         "responses": ["Well. Some of the applications of gauss's law are : Field due to an infinitely long straight uniformly charged wire, field due to a uniformly charged infinite plane sheet, field due to a uniformly charged thin spherical shell. Hop on page 37-40"],
+         "context": [""]
+        },
+        {"tag": "electrostatic potential",
+         "patterns": ["electrostatic potential", "what is electrostatic potential", "define electrostatic potential", "explain electrostatic potential"],
+         "responses": ["We define potential energy of a test charge q in terms of the work done on the charge q. This work is obviously proportional to q, since the force at any point is qE, where E is the electric field at that point due to the given charge configuration. It is, therefore, convenient to divide the work by the amount of charge q, so that the resulting quantity is independent of q. Work done by external force in bringing a unit positive charge from point R to P is given by \n Vp-Vr*(Up-Ur)/q \n where Vp and Vr are the electrostatic potentials at P and R respectively. In simple words it is, Work done by an external force in bringing a unit positive charge from infinity to a point = electrostatic potential (V ) at that point. Pg. 53, 54."],
+         "context": [""]
+        },
+    {"tag": "equipotential surfaces",
+         "patterns": ["equipotential surface", "what are equipotential surfaces"],
+         "responses": ["An equipotential surface is a surface with a constant value of potential at all points on the surface. The electric field lines for a single charge q are radial lines starting from or ending at the charge, depending on whether q is positive or negative. Clearly, the electric field at every point is normal to the equipotential surface passing through that point. This is true in general: for any charge configuration, equipotential surface through a point is normal to the electric field at that point. Jump to page 60."],
+         "context": [""]
+        },
+
+    {"tag": "due to",
+         "patterns": ["electric dipole potential", "what is electric dipole potential", "potential due to electric dipole"],
+         "responses": ["The potential due to electric dipole is given by \n V = (+(-)1/4*π *ε0)*p/ (r * r) \n where π  = 3.14159, ε is the small error, p is the point of the dipole at the origin. Refer page 56, 57." ]  ,
+         "context": [""]
+        },
+
+    {"tag": "results of electrostatics of conductors",
+         "patterns": ["results of electrostatics of conductors", "what are the results of electrostatics of conductors?"],
+         "responses": ["\n 1. Inside a conductor, electrotatic field is zero. \n 2. At the surface of a charged conductor, electrostatic field must be normal to the surface at every point. \n 3. The interior of a conductor. \n 4. Electrostatic potential is constant throughout the volume of the conductor and has the same value (as inside) on its surface. \n 5. Electric field at the surface of a charged conductor \n E = ( σ /  ε0 ) * n \n where sigma is the surface charge density and n is a unit vector normal to the surface in the outward direction. \n 6. Electrostatic Shielding. Pg. 68-69."],
+         "context": [""]
+        },
+{"tag": "capacitors and capacitance",
+         "patterns": ["what is a capacitor", "capacitor","capacitance"],
+         "responses": ["A capacitor is a system of two conductors separated by an insulator. The conductors have charges, say Q1 and Q2, and potentials V1 and V2. The two conductors have charges Q and –Q, with potential difference V = V1 – V2 between them. We shall consider only this kind of charge configuration of the capacitor. (Even a single conductor can be used as a capacitor by assuming the other at infinity.) The conductors may be so charged by connecting them to the two terminals of a battery. Q is called the charge of the capacitor, though this, in fact, is the charge on one of the conductors – the total charge of the capacitor is zero.The electric field in the region between the conductors is proportional to the charge Q. That is, if the charge on the capacitor is, say doubled, the electric field will also be doubled at every point.\n Now, potential difference V is the work done per unit positive charge in taking a small test charge from the conductor 2 to 1 against the field. Consequently, V is also proportional to Q, and the separated by an insulator forms a capacitor. ratio Q/V is a constant: \n C = Q/V \n The constant C is called the capacitance of the capacitor. C is independent of Q or V. Refer Pg 73."],
+         "context": [""]
+        },
+
+    {"tag": "parellel plate",
+         "patterns": ["parellel plate capicitor", "what is parallel capacitor"],
+         "responses": ["A parallel plate capacitor consists of two large plane parallel conducting plates separated by a small distance. Go to Pg. 74, 75"],
+         "context": [""]
+        },
+	{"tag": "combination",
+         "patterns": ["combination of capacitors", "what is combination of capacitors", "combination of resistors", "what are the combination of resistors", "combination of cells", "what are the combinations of cells"],
+         "responses": ["We can combine several capacitors of capacitance C1 , C2 ,..., Cn to obtain a system with some effective capacitance C. The effective capacitance depends on the way the individual capacitors are combined. Two simple possibilities are \n 1. Capacitors in series. \n 2. Capacitors in parallel. Hop up to page 78-79.\n Like capacitors, resistors have also the combination. They are \n 1. Resistors in Series. \n 2. Resistors in Parellel.\n Two resistors are said to be in series if only one of their end points is joined. If a third resistor is joined with the series combination of the two, then all three are said to be in series. Clearly, we can extend this definition to series combination of any number of resistors.\n Two or more resistors are said to be in parallel if one end of all the resistors is joined together and similarly the other ends joined together. More on Pg. 107 - 108.", " \n Like resistors, cells can be combined together in an electric circuit. And like resistors, one can, for calculating currents and voltages in a circuit, replace a combination of cells by an equivalent cell. Refer page 113, 114. "],
+         "context": [""]
+        },
+	{"tag": "van de graaff",
+         "patterns": ["van de graaff generator","what is van de graaff generator"],
+         "responses": ["This is a machine that can build up high voltages of the order of a few million volts. The resulting large electric fields are used to accelerate charged particles (electrons, protons, ions) to high energies needed for experiments to probe the small scale structure of matter. The principle underlying the machine is as follows. Suppose we have a large spherical conducting shell of radius R, on which we place a charge Q. This charge spreads itself uniformly all over the sphere. The field outside the sphere is just that of a point charge Q at the centre; while the field inside the sphere vanishes. So the potential outside is that of a point charge; and inside it is constant, namely the value at the radius R. We thus have: Potential inside conducting spherical shell of radius R carrying charge Q = constant. Refer Pg. 83-84."],
+         "context": [""]
+        },
+
+
+
+	{"tag": "current",
+         "patterns": ["electric current", "what is electric current"],
+         "responses": ["Charges in motion constitute an electric current. Current is produced because electrons drift due to the electric field created. Hence, the movement of charges +Q and -Q produces the electric current. Details on page 94, 95"],
+         "context": [""]
+        },
+	{"tag": "ohm",
+         "patterns": ["what is ohm's law", "ohm's law", "state ohm's law"],
+         "responses": ["Here is something about Georg Simon Ohm (1787 - 1854), German physicist, professor at Munich. Ohm was led to his law by an analogy between the conduction of heat: the electric field is analogous to the temperature gradient, and the electric current is analogous to the heat flow. Coming to the Ohm's law, it is \n Imagine a conductor through which a current I is flowing and let V be the potential difference between the ends of the conductor \n Then Ohm’s law states that \n V ∝ I or, V = R I \n where the constant of proportionality R is called the resistance of the conductor. The SI units of resistance is ohm, and is denoted by the symbol Ω. The resistance R not only depends on the material of the conductor but also on the dimensions of the conductor. More about Ohm's law in page 95 - 96."],
+         "context": [""]
+        },
+	{"tag": "limitations",
+         "patterns": ["limitations of ohm's law", "what are the limitations of ohm's law"],
+         "responses": ["Although Ohm’s law has been found valid over a large class of materials, there do exist materials and devices used in electric circuits where the proportionality of V and I does not hold. The deviations broadly are one or more of the following  types: \n  (a) V ceases to be proportional to I where V is voltage and I is the current. \n (b) The relation between V and I depends on the sign of V. In other words, if I is the current for a certain V, then reversing the direction of V keeping its magnitude fixed, does not produce a current of the same magnitude as I in the opposite direction. This happens, for example, in a diode which we will study in Chapter 14. \n  (c) The relation between V and I is not unique, i.e., there is more than one value of V for the same current I. A material exhibiting such behaviour is GaAs. Materials and devices not obeying Ohm’s law are actually widely used in electronic circuits. In this and a few subsequent chapters, however, we will study the electrical currents in materials that obey Ohm’s law. More illustrations on page 101."],
+         "context": [""]
+        },
+	{"tag": "temperature dependence",
+         "patterns": ["temperature dependence of resistivity"],
+         "responses": ["The resistivity of a material is found to be dependent on the temperature. Different materials do not exhibit the same dependence on temperatures. Over a limited range of temperatures, that is not too large, the resistivity of a metallic conductor is approximately given by, \n ρT = ρ0 * [1 + α (T–T0)] where ρT is the resistivity at a temperature T and ρ0 is the same at a reference temperature T0 . α is called the temperature co-efficient of resistivity, the dimension of α is (1/T). Refer Pg. 103 - 104."],
+         "context": [""]
+        },
+     
+    {"tag": "cells",
+         "patterns": ["cell", "what is a cell", "emf", "what is emf", "internal resistance", "what is internal resisitance"],
+         "responses": ["A simple device to maintain a steady current in an electric circuit is the cell or electrolytic cell. Basically, a cell has two electrodes the positive(P) and the negative(N). They are immersed in an electrolytic solution. Dipped in the solution, the electrodes exchange charges with the electrolyte. The positive electrode has a potential difference V+ (V+ > 0) between itself and the electrolyte solution immediately adjacent to it marked A in the figure. Similarly, the negative electrode develops a negative potential –(V– )(V– ≥ 0) relative to the electrolyte adjacent to it. When there is no current, the electrolyte has the same potential throughout, so that the potential difference between P and N is V+ – (–V– ) = V+ + V– . \n This difference is called the electromotive force (emf) of the cell and is denoted by ε.\n  Thus ε = V+ + V– > 0. Note that ε is, actually, a potential difference and not a force. The name emf, however, is used because of historical reasons, and was given at a time when the phenomenon was not understood properly. To understand the significance of ε, consider a resistor R connected across the cell. A current I flows across R from C to D. As explained before, a steady current is maintained because current flows from N to P through the electrolyte. Clearly, across the electrolyte the same current flows through the electrolyte but from N to P, whereas through R, it flows from P to N. The electrolyte through which a current flows has a finite resistance r, called the internal resistance. Consider first the situation when R is infinite so that \n I = V/R = 0, \n where V is the potential difference between P and N. \n Now, V = Potential difference between P and A \n + Potential difference between A and B \n + Potential difference between B and N \n = ε \n Thus, emf ε is the potential difference between the positive and negative electrodes in an open circuit, i.e., when no current is flowing through the cell. If however R is finite, I is not zero. In that case the potential difference between P and N is \n V = V+ + V– – I r \n = ε – I * r. More on page 110 - 111. "],
+         "context": [""]
+        },
+    {"tag": "kirchoff",
+         "patterns": ["kirchoff's rules", "what are kirchoff's rules", "kirchoff's rules", "state kirchoff's rules"],
+         "responses": ["Electric circuits generally consist of a number of resistors and cells interconnected sometimes in a complicated way. The formulae  for series and parallel combinations of resistors are not always sufficient to determine all the currents and potential differences in the circuit. Two rules, called Kirchhoff’s rules, are very useful for analysis of electric circuits.\n The rules say that \n 1. Junction rule: At any junction, the sum of the currents entering the junction is equal to the sum of currents leaving the junction. \n 2. Loop rule : The algebraic sum of potential around any closed loop involving resistors and cells in the loop is zero. Proofs on page 116."],
+         "context": [""]
+        },
+    {"tag": "wheatstone",
+         "patterns": ["wheatstone bridge", "what is wheatstone bridge", "application of kirchoff's rules"],
+         "responses": ["As an application of Kirchhoff’s rules consider the circuit shown in Fig. 3.25, on page 119 which is called the Wheatstone bridge. The bridge has four resistors R1, R2, R3 and R4. Across one pair of diagonally opposite points (A and C in the figure) a source is connected. This (i.e., AC) is called the battery arm. Between the other two vertices, B and D, a galvanometer G (which is a device to detect currents) is connected. This line, shown as BD in the figure, is called the galvanometer arm. Look page 119, 119 for more." ],
+         "context": [""]
+        },
+    {"tag": "meterbridge",
+         "patterns": ["meter bridge", "what is meter bridge"],
+         "responses": ["The meter bridge is shown in Fig. 3.27 in page 120. It consists of a wire of length 1m and of uniform cross sectional area stretched taut and clamped between two thick metallic strips bent at right angles, as shown. The metallic strip has two gaps across which resistors can be connected. The end points where the wire is clamped are connected to a cell through a key. One end of a galvanometer is connected to the metallic strip midway between the two gaps. The other end of the galvanometer is connected to a ‘jockey’. The jockey is essentially a metallic rod whose one end has a knife-edge which can slide over the wire to make electrical connection. (Page 120, 121)."],
+         "context": [""]
+        },
+    {"tag": "potentiometer",
+         "patterns": ["potentiometer", "what is potentiometer"],
+         "responses": ["his is a versatile instrument. It is basically a long piece of uniform wire, sometimes a few meters in length across which a standard cell is connected. In actual design, the wire is sometimes cut in several pieces placed side by side and connected at the ends by thick metal strip. A current I flows through the wire which can be varied by a variable resistance (rheostat, R) in the circuit. Since the wire is uniform, the potential difference between A and any point at a distance l from A is \n ε(l) = φ * l \n where φ is the potential drop per unit length. Go to page 122 for more."],
+         "context": [""]
+        },
+    {"tag": "Lorentz",
+         "patterns": ["Lorentz force", "what is lorentz force", "Describe lorentz force"],
+         "responses": ["Let us suppose that there is a point charge q (moving with a velocity v and, located at r at a given time t) in presence of both the electric field E(r) and the magnetic field B(r). The force on an electric charge q due to both of them can be written as F = q[E(r) + v×B(r)] ≡ Felectric + Fmagnetic. This force was given first by H.A. Lorentz based on the extensive experiments of Ampere and others. It is called the Lorentz force. \n Features of Lorentz force: \n (i) It depends on q, v and B (charge of the particle, the velocity and the magnetic field). Force on a negative charge is opposite to that on a positive charge. \n (ii) The magnetic force q[v×B] includes a vector product of velocity and magnetic field. The vector product makes the force due to magnetic field vanish (become zero) if velocity and magnetic field are parallel or anti-parallel. The force acts in a (sideways) direction perpendicular to both the velocity and the magnetic field. Its direction is given by the screw rule or right hand rule for vector (or cross) product. \n (iii) The magnetic force is zero if charge is not moving (as then |v|= 0). Only a moving charge feels the magnetic force. (Page 134-135)."],
+         "context": [""]
+        },
+    {"tag": "magnetic",
+         "patterns": ["magnetic field", "what is magnetic field" ],
+         "responses": ["Just as static charges produce an electric field, the currents or moving charges produce magnetic field additional to the electric field.  It is denoted B(r) where B is a vector. See page 134."],
+         "context": [""]
+        },
+    {"tag": "force",
+         "patterns": ["magnetic force", "what is magnetic force"],
+         "responses": ["The force produced by every single charged particles due to the magnetic field is the magnetic force. See Page 135. "],
+         "context": [""]
+        },
+    {"tag": "cyclotron",
+         "patterns": ["cyclotron", "what is cyclotron", "explain cyclotron"],
+         "responses": ["The cyclotron is a machine to accelerate charged particles or ions to high energies. It was invented by E.O. Lawrence and M.S. Livingston in 1934 to investigate nuclear structure. The cyclotron uses both electric and magnetic fields in combination to increase the energy of charged particles. As the fields are perpendicular to each other they are called crossed fields. Cyclotron uses the fact that the frequency of revolution of the charged particle in a magnetic field is independent of its energy. The particles move most of the time inside two semicircular disc-like metal containers, D1 and D2 , which are called dees as they look like the letter D. See page 140 - 141."],
+         "context": [""]
+        },
+    {"tag": "solenoid",
+         "patterns": ["what is solenoid", "solenoid", "explain solenoid"],
+         "responses": ["We shall discuss a long solenoid. By long solenoid we mean that the solenoid’s length is large compared to its radius. It consists of a long wire wound in the form of a helix where the neighbouring turns are closely spaced. So each turn can be regarded as a circular loop. The net magnetic field is the vector sum of the fields due to all the turns. Enamelled wires are used for winding so that turns are insulated from each other. See page 151."],
+         "context": [""]
+        },
+    {"tag": "Toroid",
+         "patterns": ["toroid", "what is toroid", "explain toroid"],
+         "responses": ["The toroid is a hollow circular ring on which a large number of turns of a wire are closely wound. It can be viewed as a solenoid which has been bent into a circular shape to close on itself. We shall see that the magnetic field in the open space inside (point P) and exterior to the toroid (point Q) is zero. The field B inside the toroid is constant in magnitude for the ideal toroid of closely wound turns. See page 152."],
+         "context": [""]
+        },
+  
+    
+    
+    
+    {"tag":"bar-magnets",
+
+"patterns":["Properties of bar-magnets"],
+
+"responses":["(i)When a bar magnet is freely su spended, it points in  the north-sou th direction. T he tip which points to the geographic north is called the north pole and the tip which points to the geographic sou th is called the south pole of the magnet. \n (ii) T here is a repu lsive force when north poles ( or south poles ) of two magnets are brou ght close together. C onversely, there is an attractive force between the north pole of one magnet and the south pole of the other. \n (iii)We cannot isolate the north, or south pole of a magnet. If a bar magnet is broken into two halves, we get two similar bar magnets with somewhat weak er properties. Unlik e electric charges, isolated magnetic north and sou th poles k nown as magnetic monopoles do not exist. \n (iv) It is possible to mak e magnets ou t of iron and its alloys. Page No:174"],
+
+"context":[""]
+},
+
+
+
+{"tag":"Magnetic field lines",
+
+"patterns":["What are magnetic field lines","Define magnetic field lines","Properties of magnetic field lines "],
+
+"responses":["The magnetic field lines are a visual and intuitive realisation of the magnetic field. Their properties are: \n (i)The magnetic field lines of a magnet (or a solenoid) form continu ou s closed loops. T his is unlik e the electric dipole where these field lines begin from a positive charge and end on the negative charge or escape to infinity. \n (ii)The tangent to the field line at a given point represents the direction of the net magnetic field at that point. \n (iii)The larger the nu mber of field lines crossing per u nit area, the stronger is the magnitude of the magnetic field. \n (iv)The magnetic field lines do not intersect, for if they did, the direction of the magnetic field would not be unique at the point of intersection. Page No:175 "],
+
+"context":[""]
+},
+
+
+
+{"tag":"bar-mangnet as a solenoid",
+
+"patterns":["Can a bar-magnet be turned into a solenoid","Explain how bar magnets are similar to a solenoid"],
+
+"responses":["Yes.The resemblance of magnetic field lines for a bar magnet and a solenoid suggest that a bar magnet may be thought of as a large number of circulating currents in analogy with a solenoid. Cutting a bar magnet in half is like cutting a solenoid. We get two smaller solenoids with weak er magnetic properties. The field lines remain continuous, emerging from one face of the solenoid and entering into the other face. One can test this analogy by moving a small compass needle in the neighbourhood of a bar magnet and a current-carrying finite solenoid and noting that the deflections of the needle are similar in both cases. See Page 176 for more."],
+
+"context":[""]
+},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+{"tag":"AC",
+
+"patterns":["Why is AC current preferred over DC current?"],
+
+"responses":["The main reason for preferring use of ac voltage over dc voltage is that ac voltages can be easily and efficiently converted from one voltage to the other by means of transformers. Further, electrical energy can also be transmitted economically over long distances. AC circuits exhibit characteristics which are exploited in many devices of daily use."],
+
+"context":[""]
+},
+
+{"tag":"AC Voltage",
+
+"patterns":["What happens when we apply AC voltage across a resistor","Explain the behaviour of a resistor on AC Voltage"],
+
+"responses":["Like the applied voltage, the current varies sinusoidally and has corresponding positive and negative values during each cycle. Thus, the sum of the instantaneous current values over one complete cycle is zero, and the average current is zero. The fact that the average current is zero, however, does not mean that the average power consumed is zero and that there is no dissipation of electrical energy.Joule heating is given by i2R and depends on i2 (which is always positive whether i is positive or negative) and not on i. Thus, there is Joule heating and dissipation of electrical energy when an ac current passes through a resistor." ],
+
+"context":[""]
+},
+
+
+{"tag":"Inductor",
+
+"patterns":["What happens when we apply AC Voltage across an Inductor","Explain the behaviour of an Inductor on AC Voltage"],
+
+"responses":["Usually, inductors have appreciable resistance in their windings, but we shall assume that this inductor has negligible resistance. Thus, the circuit is a purely inductive ac circuit. Let the voltage across the source be v = vm sinωt. Using the Kirchhoff’s loop rule, ∑ε(t) = 0, and  since there is no resistor in the circuit where the second term is the self-induced Faraday.The amount of current the inductor will repel is called inductive reactance.The dimension of inductive reactance is the same as that of resistance and its SI unit is ohm (Ω). The inductive reactance limits the current in a purely inductive circuit in the same way as the resistance limits the current in a purely resistive circuit. The inductive reactance is directly proportional to the inductance and to the frequency of the current."],
+
+"context":[""]
+},
+
+
+{"tag":"across",
+
+"patterns":["What happens when we apply AC Voltage across an capacitor","Explain the behaviour of an capacitor on AC Voltage"],
+
+"responses":["When a capacitor is connected to a voltage source in a dc circuit, current will flow for the short time required to charge the capacitor. As charge accumulates on the capacitor plates, the voltage across them increases, opposing the current. That is, a capacitor in a dc circuit will limit or oppose the current as it charges. When the capacitor is fully charged, the current in the circuit falls to zero.When the capacitor is connected to an ac source, as in Fig. 7.8, it limits or regulates the current, but does not completely prevent the flow of charge.. "],
+"context":[""]
+},
+
+
+
+{"tag":"Series LCR circuit",
+
+"patterns":["What is Resonance","Explain the behaviour of resonance in a series LCR circuit on AC Voltage"],
+
+"responses":["An interesting characteristic of the series RLC circuit is the phenomenon of resonance. The phenomenon of resonance is common among systems that have a tendency to oscillate at a particular frequency. This frequency is called the system’s natural frequency. If such a system is driven by an energy source at a frequency that is near the natural frequency, the amplitude of oscillation is found to be large. A familiar example of this phenomenon is a child on a swing. The  the swing has a natural frequency for swinging back and forth like a pendulum. If the child pulls on the rope at regular intervals and the frequency of the pulls is almost the same as the frequency of swinging, the amplitude of the swinging will be large (Chapter 14, Class XI)."],
+
+"context":[""]
+},
+
+
+
+{"tag":"LC circuit",
+
+"patterns":["What happens when we apply AC Voltage across a series LC circuit","Explain the behaviour of a series LC circuit on AC Voltage"],
+
+"responses":["A circuit containing an inductor L and a capacitor C (initially charged) with no ac source and no resistors exhibits free oscillations. We know that a capacitor and an inductor can store electrical and magnetic energy, respectively. When a capacitor (initially charged) is connected to an inductor, the charge on the capacitor and the current in the circuit exhibit the phenomenon of electrical oscillations similar to oscillations in mechanical systems (Chapter 14, Class XI). \n Let a capacitor be charged qm (at t = 0) and connected to an inductor. The moment the circuit is completed, the charge on the capacitor starts decreasing, giving rise to current in the circuit. Let q and i be the charge and current in the circuit at time t. Since  di/dt is positive, the induced emf in L will have polarity as shown, i.e., vb < va. \n (i)Every inductor has some resistance. The effect of this resistance is to introduce a damping effect on the charge and current in the circuit and the oscillations finally die away.\n (ii) Even if the resistance were zero, the total energy of the system would not remain constant. It is radiated away from the system in the form of electromagnetic waves (discussed in the next chapter). In fact, radio and TV transmitters depend on this radiation."],
+
+"context":[""]
+},
+
+
+
+{"tag":"Transformer",
+
+"patterns":["What is a transformer","Define a transformer", "Working of a transformer","How does a transformer work"],
+
+"responses":["A transformer consists of an iron core on which are bound aprimary coil of Np turns and a secondary coil of Ns turns. If the primary coil is connected to an ac source, the primary and secondary voltages are related .\n It is necessary to change (or transform) an alternating voltage from one to another of greater or smaller value. This is done with a device called transformer using the principle of mutual induction.A transformer consists of two sets of coils, insulated from each other. They are wound on a soft-iron core, either one on top of the other or on separate limbs of the core.One of the coils called the primary coil has Np turns. The other coil is called the secondary coil; it has Ns turns. Often the primary coil is the input coil and the secondary coil is the output coil of the transformer. When an alternating voltage is applied to the  primary, the resulting current produces an alternating magnetic flux which links the secondary and induces an emf in it. The value of this emf depends on the number of turns in the secondary. We consider an ideal transformer in which the primary has negligible resistance and all the flux in the core links both primary and secondary windings. Let φ be the flux in each turn in the core at time t due to current in the primary when a voltage vp is applied to it.Then the induced emf or voltage εs, in the secondary with Ns turns is \n εs =−Ns dφ \n The alternating flux φ also induces an emf, called back emf in the primary. This is\n εp =−Np dφ"],
+
+"context":[""]
+},
+
+
+
+{"tag":"Energy loss",
+
+"patterns":["Explain the losses in a transformer","What are the losses in a transformer?"],
+
+"responses":["(i)Flux Leakage: There is always some flux leakage; that is, not all of the flux due to primary passes through the secondary due to poor design of the core or the air gaps in the core. It can be reduced by winding the primary and secondary coils one over the other. \n (ii) Resistance of the windings: The wire used for the windings has some resistance and so, energy is lost due to heat produced in the wire (I*I*R). In high current, low voltage windings, these are minimised by using thick wire. \n (iii) Eddy currents: The alternating magnetic flux induces eddy currents in the iron core and causes heating. The effect is reduced by having a laminated core. \n (iv) Hysteresis: The magnetisation of the core is repeatedly reversed by the alternating magnetic field. The resulting expenditure of energy in the core appears as heat and is kept to a minimum by using a magnetic material which has a low hysteresis loss. \n The large scale transmission and distribution of electrical energy over long distances is done with the use of transformers. The voltage output of the generator is stepped-up (so that current is reduced and consequently, the I2R loss is cut down). It is then transmitted over long distances to an area sub-station near the consumers. There the voltage is stepped down. It is further stepped down at distributing sub-stations and utility poles before a power supply of 240 V reaches our homes."],
+
+"context":[""]
+},
+
+
+
+{"tag":"Phasors",
+
+"patterns":["What are phasors","Define phasors", "Explain a phasor diagram"],
+
+"responses":["The phase relationship between current and voltage in an ac circuit can be shown conveniently by representing voltage and current by rotating vectors called phasors. A phasor is a vector which rotates about the origin with angular speed ω. The magnitude of a phasor represents the amplitude or peak value of the quantity (voltage or current) represented by the phasor. The analysis of an ac circuit is facilitated by the use of a phasor diagram."],
+
+"context":[""]
+},
+
+
+
+{"tag":"magnetism",
+
+"patterns":["What is a magnet","What is magnetism","How was magnetism discovered"],
+
+"responses":["The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC. Shepherds on this island complained that their wooden shoes (which had nails) at times stayed struck to the ground.Their iron-tipped rods were similarly affected. This attractive property of magnets made it difficult for them to move around.The directional property of magnets was also known since ancient times. A thin long piece of a magnet, when suspended freely, pointed in the north-south direction. \n  A similar effect was observed when it was placed on a piece of cork which was then allowed to float in still water. \n The name lodestone (or loadstone) given to a naturally occurring ore of ironmagnetite means leading stone. "],
+
+"context":[""]
+}
+   ]
+}
